@@ -4,6 +4,9 @@
 
 
 @layer components{
+    input{
+        @apply px-3 py-2 rounded-md border;
+    }
     .btn{
         @apply bg-[#00dc82] text-white px-3 py-2 rounded-md text-sm;
     }
